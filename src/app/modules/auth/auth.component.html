@@ -1,0 +1,32 @@
+<div class="flex h-screen w-screen">
+  <div class="auth-bg hidden flex-1 items-center justify-center bg-primary-500 bg-cover lg:flex">
+    <div class="max-w-2xl space-y-4 p-8 text-center text-white">
+      <!-- Depoiment Image -->
+      <!-- <img src="./assets/images/auth-screens.png" alt="dashboard widget" /> -->
+
+      <h1 class="text-4xl font-bold">"Lorem ipsum dolor sit amet, consectetur"</h1>
+
+      <p class="text-xs font-light">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        <span class="cursor-pointer font-medium text-yellow-400">dolore</span> exercitation ullamco laboris nisi ut
+        Suscipit tellus mauris a diam maecenas. Facilisis mauris sit amet massa. Amet risus nullam eget felis. Pretium
+        vulputate sapien nec sagittis. Lacinia quis vel eros donec ac odio. Pharetra diam sit amet nisl suscipit. Nec
+        sagittis aliquam malesuada bibendum arcu vitae elementum.
+      </p>
+    </div>
+  </div>
+  <div class="flex flex-1 items-center justify-center bg-white dark:bg-night-700">
+    <div class="max-w-md overflow-y-auto px-4 sm:w-[500px]">
+      <!-- logo -->
+      <div class="flex items-center justify-center">
+        <a class="rounded p-2 text-primary-500">
+          <svg-icon src="assets/icons/app-logo.svg" svgClass="h-6 w-6"> </svg-icon>
+        </a>
+        <b class="text-md pl-3 font-bold text-gray-700 dark:text-white">Saas</b>
+      </div>
+      <!-- Route -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
